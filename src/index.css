@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 110vh;
+  background: linear-gradient(#b0d606, #06a736);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background-color: #707070;
+}
+
+.list {
+  height: 70px;
+  padding-left: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  cursor: pointer;
+}
+
+
+.correct{
+  background-color: blue;
+  color: white;
+}
+
+.wrong{
+  background-color: red;
+  color: white;
+}
